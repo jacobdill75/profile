@@ -1,7 +1,5 @@
-# Allstar Code Site - Web Development Assessment
+# Personal Website
 
-Position: Lead Instructor (New York / Jersey City), 2020 Summer Intensive Program
+Last Updated: March 10, 2020
 
-Submitted: February 2020
-
-Visit at: https://jacobdill75.github.io/AllstarCodeSite/
+Visit at: https://jacobdill75.github.io/profile/
