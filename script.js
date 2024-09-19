@@ -25,6 +25,6 @@ function sendMail() {
     company = document.getElementById("inputCompany").value;
     message = document.getElementById("inputMessage").value;
     window.open(
-        "mailto:jacobdil@andrew.cmu.edu?subject=A Message From " + company + "&body="
+        "mailto:jacobdil@alumni.cmu.edu?subject=A Message From " + company + "&body="
         + message + "%0D%0A%0D%0ASincerely,%0D%0A%0D%0A" + name + "%0D%0AReply at: " + email);
 }

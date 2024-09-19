@@ -13,6 +13,8 @@
     .w3-half {padding: 0px 8px;}
     .mySlides {display: none}
     .w3-red, .w3-hover-red:hover {background-color: #bc0000!important}
+    .w3-white,.w3-hover-white:hover{color:#0b0909!important;background-color:#d6d6d6!important}
+    .w3-black, .w3-hover-black:hover{color:#d6d6d6!important;background-color:#0b0909!important}
     i {padding: 0px 8px;}
     h3 {font-style:italic}
 </style>
@@ -20,55 +22,70 @@
 <body>
 
 <div class="w3-top w3-bar w3-black w3-card">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROFILE</a>
-    <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROJECTS</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><strong>PROFILE</strong></a>
+    <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><strong>PROJECTS</strong></a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><strong>CONTACT</strong></a>
 </div>
 
-<div class="w3-content" style="max-width:2000px;margin-top:46px">
+<div class="w3-content w3-white" style="max-width:100%;margin-top:46px">
 
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="profile">
     <img src="assets/portrait.jpg" style="border-radius:50%;width:40%;height:auto"/>
-    <h1 class="w3-wide">Jacob Dill</h1>
-    <p class="w3-opacity"><i>Computer Science Major at Carnegie Mellon University</i></p>
+    <h1 class="w3-wide">JACOB P. DILL</h1>
+    <p class="w3-opacity"><i>Programmer, Artist, Athlete, and Musician</i></p>
     <p class="w3-justify">
 
-      I am currently an undergraduate studying at Carnegie Mellon's School of Computer Science (SCS) for a Bachelor's of Computer Science and a Minor in Mathematical Sciences (Expected Graduation Date: Dec 2021).
-      I am a programmer, artist, musician, and sound designer. I have considerable experience with applications such as the Unity Engine, Blender, Logic/GarageBand, and the Source Engine.
-      Some of my recent projects include the Endgame Mod for Minecraft, and P&#230thos, an educational virtual reality experience, for the Oculus Quest.</p>
+      I am currently a full-stack Software Engineer at Emerson Automation Solutions. I have a Bachelor's Degree in Computer Science (SCS) and a Minor in Mathematical Sciences from Carnegie Mellon University.
+      <br/><br/>
+      At Emerson, I have developed and maintained front and back end applications serving both external customers and internal organizations. I have implemented both native and web front-end applications adhering to UX best practices, as well as back-end technologies such as software licensing and database management.
+      <br/><br/>
+
+    </p>
+
+    
+    <a href="assets/jacobdill_resume.pdf" target="_blank" class="w3-button w3-round w3-black w3-padding-16">Download Resume<i class="fa fa-file-text-o w3-hover-opacity"></i></a>
+
+    <div class="w3-row w3-padding-32">
+      <div class="w3-half">
+        <h3 class="w3-opacity">Works at:</h3>
+        <a href="https://www.emerson.com/en-us/automation/home/"><img src="assets/emerson.png" class="w3-round w3-margin-bottom w3-card" alt="Emerson Automation Solutions" style="width:60%"></a>
+      </div>
+      <div class="w3-half">
+        <h3 class="w3-opacity">Attended:</h3>
+        <a href="https://www.cmu.edu/"><img src="assets/carnegie.png" class="w3-round w3-margin-bottom w3-card" alt="Carnegie Mellon" style="width:60%"></a>
+      </div>
+    </div>
 
     <div class="w3-row w3-padding-32">
       <div class="w3-third">
-        <h3 class="w3-opacity">Attends:</h3>
-        <p>Carnegie Mellon University</p>
-        <a href="https://www.cmu.edu/"><img src="assets/carnegie.png" class="w3-round w3-margin-bottom" alt="Carnegie Mellon" style="width:60%"></a>
-      </div>
-      <div class="w3-third">
-        <h3 class="w3-opacity">Interned At:</h3>
-        <p>Plecosystems Inc.</p>
-        <a href="https://plecosystems.com/"><img src="assets/pleco.png" class="w3-round w3-margin-bottom" alt="Plecosystems Inc." style="width:60%"></a>
+        <h3 class="w3-opacity">Interned at:</h3>
+        <a href="https://www.kla.com/"><img src="assets/kla.png" class="w3-round w3-margin-bottom w3-card" alt="KLA Corporation" style="width:60%"></a>
       </div>
       <div class="w3-third">
         <h3 class="w3-opacity">Interned at:</h3>
-        <p>Lockheed Martin Corporation</p>
-        <a href="https://www.lockheedmartin.com/en-us/index.html"><img src="assets/lockheed.png" class="w3-round w3-margin-bottom" alt="Lockheed Martin" style="width:60%"></a>
+        <a href="https://plecosystems.com/"><img src="assets/pleco.png" class="w3-round w3-margin-bottom w3-card" alt="Plecosystems Inc." style="width:60%"></a>
+      </div>
+      <div class="w3-third">
+        <h3 class="w3-opacity">Interned at:</h3>
+        <a href="https://www.lockheedmartin.com/en-us/index.html"><img src="assets/lockheed.png" class="w3-round w3-margin-bottom w3-card" alt="Lockheed Martin" style="width:60%"></a>
       </div>
     </div>
   </div>
 
-  <div class="w3-black" id="projects">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+  <div id="projects">
+    <div class="w3-container w3-content w3-black w3-card w3-round-large w3-padding-64" style="max-width:800px">
       <h2 class="w3-wide w3-center">PROJECTS</h2>
-      <p class="w3-opacity w3-center"><i>Pursuing Computer Science Beyond the Classroom</i></p><br>
+      <p class="w3-opacity w3-center"><i>Beyond the Workplace and the Classroom</i></p><br>
 
       <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
         <script id="projectScript">
 
-	    addProject("assets/implicitus.png", "Implicitus", "April 2020", "A stack-based logic puzzle game inspired by To Mock a Mockingbird\n ", "https://github.com/gantar22/IMPLICITUS", "https://crystal-gantar.itch.io/implicitus-beta");
-            addProject("assets/endgamemod.png", "Endgame Mod", "February 2020", "A Minecraft Mod Adding Features to the End Dimension", "https://github.com/jacobdill75/EndgameMod", "");
-            addProject("assets/paethos.png", "P&#230thos", "January 2020", "EEG/VR Combined Experience for Educating its Users in Healthy Day-to-Day Brain Function", "https://github.com/navidmx/Paethos", "https://github.com/navidmx/Paethos/blob/master/preview.gif");
-            addProject("assets/smedex.png", "SMEDex", "Fall 2019", "A Planetary Resource Management and Strategic Defense Game in the Setting of Space", "https://github.com/Flafla2/SMEDex", "");
-            addProject("assets/meda.png", "Meda", "Fall 2018", "A Modern Web Portal to Improve Patient Hand-offs Between Doctors", "https://github.com/navidmx/meda", "https://medaportal.com");
+          addProject("assets/edo_tuning.png", "EDO Tuning", "January 2024", "A MuseScore plugin to configure playback tuning for several divisions of the octave\n ", "https://github.com/jacobdill75/musescore-edo-tuning", "https://musescore.org/en/project/121719-edo-tuning")
+	        addProject("assets/implicitus.png", "Implicitus", "April 2020", "A stack-based logic puzzle game inspired by To Mock a Mockingbird\n ", "https://github.com/gantar22/IMPLICITUS", "https://crystal-gantar.itch.io/implicitus-beta");
+          addProject("assets/endgamemod.png", "Endgame Mod", "February 2020", "A Minecraft Mod Adding Features to the End Dimension", "https://github.com/jacobdill75/EndgameMod", "");
+          addProject("assets/paethos.png", "P&#230thos", "January 2020", "EEG/VR Combined Experience for Educating its Users in Healthy Day-to-Day Brain Function", "https://github.com/navidmx/Paethos", "https://github.com/navidmx/Paethos/blob/master/preview.gif");
+          addProject("assets/smedex.png", "SMEDex", "Fall 2019", "A Planetary Resource Management and Strategic Defense Game in the Setting of Space", "https://github.com/Flafla2/SMEDex", "");
+          addProject("assets/meda.png", "Meda", "Fall 2018", "A Modern Web Portal to Improve Patient Hand-offs Between Doctors", "https://github.com/navidmx/meda", "https://medaportal.com");
             
         </script>
       </div>
@@ -80,7 +97,7 @@
     <p class="w3-opacity w3-center"><i>Reach out to me using the following contact information and on the platforms linked below:</i></p>
     <div class="w3-row w3-padding-32">
       <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i> Pittsburgh, PA, United States<br>
+        <i class="fa fa-map-marker" style="width:30px"></i> Austin, TX, United States<br>
         <i class="fa fa-phone" style="width:30px"></i> Phone: (610) 248-2450<br>
         <i class="fa fa-envelope" style="width:30px"> </i> Email: jacobdill@cmu.edu<br>
       </div>
@@ -108,7 +125,7 @@
 <img src="assets/cmu.png" class="w3-image w3-greyscale-min" style="width:100%">
 
 <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  <a href="mailto:jacobdill@cmu.edu" target="_blank"><i class="fa fa-envelope-o w3-hover-opacity"></i></a>
+  <a href="mailto:jacobdil@alumni.cmu.edu" target="_blank"><i class="fa fa-envelope-o w3-hover-opacity"></i></a>
   <a href="https://www.linkedin.com/in/jacobdillcmu/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
   <a href="https://cmu.joinhandshake.com/users/13580206" target="_blank"><i class="fa fa-handshake-o w3-hover-opacity"></i></a>
   <a href="https://jumpstart.me/r/jacob-dill" target="_blank"><i class="fa fa-user-circle w3-hover-opacity"></i></a>
