@@ -1,5 +1,5 @@
 # Personal Website
 
-Last Updated: May 29, 2020
+Last Updated: September 18, 2024
 
 Visit at: https://jacobdill75.github.io/profile/
